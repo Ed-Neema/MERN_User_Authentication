@@ -9,6 +9,7 @@ app.use(express.json());
 
 // connecting our routes
 app.use('/api/auth',require('./routes/auth'));
+app.use('/api/private',require('./routes/private'));
 // Error Handler Middleware(Error handler should be the last piece of middleware)
 app.use(errorHandler);
 

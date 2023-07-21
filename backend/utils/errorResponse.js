@@ -1,5 +1,5 @@
 /**
- * ew class named ErrorResponse that extends the built-in Error class. By extending Error, the ErrorResponse class inherits all the properties and behaviors of the Error class.
+ * New class named ErrorResponse that extends the built-in Error class. By extending Error, the ErrorResponse class inherits all the properties and behaviors of the Error class.
  */
 class ErrorResponse extends Error {
   constructor(message, statusCode) {
